@@ -4,4 +4,5 @@ The complete code and data will be released upon acceptance. Four sampled IDs fr
     <img src="./teaser.png" alt="Teaser">
 </div>
 Algorithm Flow: 
-![image](https://github.com/liuyixin-louis/MetaCloak/assets/53036760/8c35007f-9d6d-4cb8-a226-61842772b06d)
+
+![Framework](./framework.png)

@@ -1,2 +1,2 @@
-# MetaCloak
-Robust Imperceptible Perturbation against Diffusion Models (e.g. DreamBooth)
+# Robust Imperceptible Perturbation against Diffusion Models
+The complete code and data will be released upon acceptance. 

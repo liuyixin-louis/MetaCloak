@@ -3,6 +3,5 @@ The complete code and data will be released upon acceptance. Four sampled IDs fr
 <div align="center">
     <img src="./teaser.png" alt="Teaser">
 </div>
-Algorithm Flow: 
-
+## Algorithm Flow
 ![Framework](./framework.png)

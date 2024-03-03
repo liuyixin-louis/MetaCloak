@@ -1,0 +1,17 @@
+scikit-learn
+piq
+opencv-python
+tensorflow
+deepface==0.0.79
+bitsandbytes
+diffusers==0.13.1
+triton==2.0.0.dev20221031 
+xformers==0.0.17.dev461
+transformers==4.26.0
+datasets==2.10.1
+accelerate==0.25.0
+ftfy
+tensorboard
+Jinja2
+tqdm
+lpips

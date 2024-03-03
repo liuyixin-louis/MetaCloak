@@ -1,6 +1,6 @@
 # Robust Imperceptible Perturbation against Diffusion Models
 [Paper](https://arxiv.org/abs/2311.13127); [Homepage](metacloak.github.io); 
-
+This is the official implementation of the paper "Robust Imperceptible Perturbation against Diffusion Models" (CVPR 2022). 
 <!-- The complete code and data will be released upon acceptance. Four sampled IDs from VGGFace2 (clean and protected images with our method with $r=11/255$) are released under the `./example_data/` folder. Free feel to test out the protection performance.  -->
 <div align="center">
     <img src="./teaser.png" alt="Teaser">
@@ -37,3 +37,20 @@ export ADB_PROJECT_ROOT="/path/to/your/project/root"
 # your conda env name
 export PYTHONPATH=$PYTHONPATH$:$ADB_PROJECT_ROOT
 ```
+
+
+## Citation
+If our work is useful for your research, please consider citing:
+```bibtex
+@article{liu2023toward,
+  title={Toward Robust Imperceptible Perturbation against Unauthorized Text-to-image Diffusion-based Synthesis},
+  author={Liu, Yixin and Fan, Chenrui and Dai, Yutong and Chen, Xun and Zhou, Pan and Sun, Lichao},
+  journal={arXiv preprint arXiv:2311.13127},
+  year={2023}
+}
+```
+
+
+## Acknowledgement
+- [CLIP-IQA](https://github.com/IceClear/CLIP-IQA?tab=readme-ov-file)
+- [Anti-Dreambooth](https://github.com/VinAIResearch/Anti-DreamBooth)

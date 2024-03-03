@@ -54,3 +54,4 @@ If our work is useful for your research, please consider citing:
 ## Acknowledgement
 - [CLIP-IQA](https://github.com/IceClear/CLIP-IQA?tab=readme-ov-file)
 - [Anti-Dreambooth](https://github.com/VinAIResearch/Anti-DreamBooth)
+- [deepface](https://github.com/serengil/deepface)

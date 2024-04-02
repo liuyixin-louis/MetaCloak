@@ -1,4 +1,4 @@
-# Metacloak: Preventing Unauthorized Subject-driven Text-to-image Diffusion-based Synthesis via Meta-learning
+# 🎭 Metacloak: Preventing Unauthorized Subject-driven Text-to-image Diffusion-based Synthesis via Meta-learning
 > Robust Imperceptible Perturbation against Diffusion Models;
 
 > This is the official implementation of the paper "Metacloak: Preventing Unauthorized Subject-driven Text-to-image Diffusion-based Synthesis via Meta-learning" (CVPR 2024). [📄Paper](https://arxiv.org/abs/2311.13127); [🏠Homepage](https://metacloak.github.io); [🤗Huggingface Dataset](https://huggingface.co/datasets/yixin/metacloak_celeba_vggface2); 

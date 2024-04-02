@@ -2,8 +2,7 @@
 # Copyright (c) 2023 Yixin Liu Lehigh University
 # All rights reserved.
 #
-# This file is part of the MetaCloak project. Unauthorized copying of this file,
-# via any medium is strictly prohibited. Proprietary and confidential.
+# This file is part of the MetaCloak project. Please cite our paper if our codebase contribute to your project. 
 # -----------------------------------------------------------------------
 
 from typing import Any

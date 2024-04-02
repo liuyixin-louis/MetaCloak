@@ -15,3 +15,6 @@ tensorboard
 Jinja2
 tqdm
 lpips
+cvxpy
+lpips
+wandb

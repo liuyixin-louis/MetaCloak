@@ -42,10 +42,24 @@ export PYTHONPATH=$PYTHONPATH$:$ADB_PROJECT_ROOT
 ```
 
 ## Scripts 
+### File Structure
+```shell
+- script
+    -- sub
+        --- generic.sh # this is for evaluation of the generated perturbation
+    -- gen 
+        --- generic.sh # some generic config for perturbation generation
+        --- Clean.sh # no perturb 
+        --- metacloak.sh # metacloak perturbation
+    -- gen_and_eval.sh # generate and evaluate perturbation
+    -- methods_config.sh # hyper-parameter config of diff. methods  
+```
+
 ### Perturbation Generation and Evaluation
 ```shell
-# for detailed config please refer to the script
+# please modify some config in the script before running
 bash ./scripts/gen_and_eval.sh
+# Then foor loop all the instances and compute the metrics 
 ```
 
 
@@ -62,7 +76,7 @@ If our work or codebase is useful for your research, please consider citing:
 
 
 ## Acknowledgement
-- [CLIP-IQA](https://github.com/IceClear/CLIP-IQA?tab=readme-ov-file)
 - [Anti-Dreambooth](https://github.com/VinAIResearch/Anti-DreamBooth)
+- [CLIP-IQA](https://github.com/IceClear/CLIP-IQA?tab=readme-ov-file)
 - [deepface](https://github.com/serengil/deepface)
 - [REM](https://github.com/fshp971/robust-unlearnable-examples)

@@ -11,6 +11,7 @@
 
 ![Framework](./framework.png) -->
 
+[Apr 4, 2024]: We release the perturbed images under the noise level of $11/255$ at [Huggingface Dataset](https://huggingface.co/datasets/yixin/metacloak_vggface2_protected_11). 
 
 ## Software Dependencies
 ```shell

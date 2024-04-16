@@ -12,6 +12,7 @@
 ![Framework](./framework.png) -->
 
 ## News
+- [Apr 10, 2024]: MetaCloak is selected as an oral presentation in CVPR'24, Seattle. 
 - [Apr 4, 2024]: We release the perturbed images using MetaCloak of VGGFace2 under the noise level of $11/255$ at [Huggingface Dataset](https://huggingface.co/datasets/yixin/metacloak_vggface2_protected_11). 
 
 ## Software Dependencies

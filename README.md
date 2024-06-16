@@ -69,11 +69,13 @@ bash ./scripts/gen_and_eval.sh
 ## Citation
 If our work or codebase is useful for your research, please consider citing:
 ```bibtex
-@article{liu2023toward,
-  title={Toward Robust Imperceptible Perturbation against Unauthorized Text-to-image Diffusion-based Synthesis},
-  author={Liu, Yixin and Fan, Chenrui and Dai, Yutong and Chen, Xun and Zhou, Pan and Sun, Lichao},
-  journal={arXiv preprint arXiv:2311.13127},
-  year={2023}
+@InProceedings{Liu_2024_CVPR,
+    author    = {Liu, Yixin and Fan, Chenrui and Dai, Yutong and Chen, Xun and Zhou, Pan and Sun, Lichao},
+    title     = {MetaCloak: Preventing Unauthorized Subject-driven Text-to-image Diffusion-based Synthesis via Meta-learning},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {24219-24228}
 }
 ```
 

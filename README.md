@@ -13,16 +13,7 @@
 - [Apr 4, 2024]: We release the perturbed images using MetaCloak of VGGFace2 under the noise level of $11/255$ at [Huggingface Dataset](https://huggingface.co/datasets/yixin/metacloak_vggface2_protected_11). 
 
 ## Software Dependencies
-```shell
-conda create -n metacloak python=3.9.18
-# please choose pip or conda to install pytorch and cuda tool kit
-# pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
-conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.6 -c pytorch -c nvidia
-pip install -r requirement.txt --ignore-installed
-pip install ftfy regex tqdm git+https://github.com/openai/CLIP.git
-pip install git+https://github.com/huggingface/diffusers.git
-pip install git+https://github.com/TimDettmers/bitsandbytes.git
-```
+`python = 3.10` and refer to `./requirements_cuda118.txt` for building env. 
 
 ## Data and Checkpoint Dependencies
 - put LIQE checkpoint `https://drive.google.com/file/d/1GoKwUKNR-rvX11QbKRN8MuBZw2hXKHGh/view` to `./LIQE/checkpoints/`
